@@ -1,6 +1,6 @@
-<p align="center"><img src="../assets/logo-small.png" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="../assets/logo-small.png" alt="MyText" width="100" height="100"></p>
 
-<h1 align="center">MarkText</h1>
+<h1 align="center">MyText</h1>
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
@@ -109,7 +109,7 @@
 
 <h2 align="center">স্পনসর</h2>
 
-MarkText একটি ওপেন-সোর্স Markdown এডিটর, যা এর কমিউনিটির সহায়তায় এগিয়ে চলছে। MarkText যদি আপনার কাজের ধারা উন্নত করে থাকে, তাহলে অনুগ্রহ করে [প্রজেক্টটিকে স্পনসর করার](https://github.com/sponsors/marktext) কথা বিবেচনা করুন। সব স্পনসরকে ধন্যবাদ ❤️
+MyText একটি ওপেন-সোর্স Markdown এডিটর, যা এর কমিউনিটির সহায়তায় এগিয়ে চলছে। MyText যদি আপনার কাজের ধারা উন্নত করে থাকে, তাহলে অনুগ্রহ করে [প্রজেক্টটিকে স্পনসর করার](https://github.com/sponsors/marktext) কথা বিবেচনা করুন। সব স্পনসরকে ধন্যবাদ ❤️
 
 **বিশেষ স্পনসর**
 
@@ -179,16 +179,16 @@ Linux, macOS এবং Windows-এর সব binary [release page](https://githu
 
 ## ডেভেলপমেন্ট
 
-আপনি যদি নিজে MarkText build করতে চান, তাহলে আমাদের [build instructions](https://marktext.me/docs/dev/build) দেখুন।
+আপনি যদি নিজে MyText build করতে চান, তাহলে আমাদের [build instructions](https://marktext.me/docs/dev/build) দেখুন।
 
 - [ব্যবহারকারী ডকুমেন্টেশন](https://marktext.me/docs/introduction)
 - [ডেভেলপার ডকুমেন্টেশন](https://marktext.me/docs/dev/overview)
 
-MarkText সম্পর্কে আপনার কোনো প্রশ্ন থাকলে issue খুলতে পারেন। Issue খোলার সময় অনুগ্রহ করে ডিফল্ট ফরম্যাটটি ব্যবহার করুন। অবশ্যই, সরাসরি PR পাঠালে সেটিও অত্যন্ত প্রশংসিত হবে।
+MyText সম্পর্কে আপনার কোনো প্রশ্ন থাকলে issue খুলতে পারেন। Issue খোলার সময় অনুগ্রহ করে ডিফল্ট ফরম্যাটটি ব্যবহার করুন। অবশ্যই, সরাসরি PR পাঠালে সেটিও অত্যন্ত প্রশংসিত হবে।
 
 ## অবদান
 
-MarkText এখনো উন্নয়নাধীন, তাই pull request করার আগে [Contributing Guide](../../.github/CONTRIBUTING.md) পড়ে নিন। MarkText-এ নতুন ফিচার যোগ করতে চান? আমাদের [roadmap](https://github.com/marktext/marktext/projects) এবং open issue দেখুন।
+MyText এখনো উন্নয়নাধীন, তাই pull request করার আগে [Contributing Guide](../../.github/CONTRIBUTING.md) পড়ে নিন। MyText-এ নতুন ফিচার যোগ করতে চান? আমাদের [roadmap](https://github.com/marktext/marktext/projects) এবং open issue দেখুন।
 
 ## অবদানকারীরা
 

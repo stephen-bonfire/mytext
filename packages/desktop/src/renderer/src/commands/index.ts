@@ -632,7 +632,7 @@ const commands: CommandDescriptor[] = [
   },
 
   // --------------------------------------------------------------------------
-  // MarkText
+  // MyText
 
   {
     id: 'file.preferences',

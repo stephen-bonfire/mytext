@@ -1,6 +1,6 @@
-<p align="center"><img src="../assets/logo-small.png" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="../assets/logo-small.png" alt="MyText" width="100" height="100"></p>
 
-<h1 align="center">MarkText</h1>
+<h1 align="center">MyText</h1>
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
@@ -106,9 +106,9 @@
 
 <br />
 
-<h2 align="center">MarkText 지원</h2>
+<h2 align="center">MyText 지원</h2>
 
-MarkText는 커뮤니티의 지원으로 운영되는 오픈소스 Markdown 편집기입니다. MarkText가 작업 흐름을 개선한다면 [프로젝트 후원](https://github.com/sponsors/marktext)을 고려해 주세요. 모든 후원자 여러분께 감사드립니다 ❤️
+MyText는 커뮤니티의 지원으로 운영되는 오픈소스 Markdown 편집기입니다. MyText가 작업 흐름을 개선한다면 [프로젝트 후원](https://github.com/sponsors/marktext)을 고려해 주세요. 모든 후원자 여러분께 감사드립니다 ❤️
 
 **특별 후원사**
 
@@ -175,16 +175,16 @@ Linux, macOS 및 Windows용 모든 바이너리는 [릴리스 페이지](https:/
 
 ## 개발
 
-MarkText를 직접 빌드하려면 [빌드 지침](../dev/BUILD.md)을 확인하세요.
+MyText를 직접 빌드하려면 [빌드 지침](../dev/BUILD.md)을 확인하세요.
 
 - [사용자 문서](../README.md)
 - [개발자 문서](../dev/README.md)
 
-MarkText에 관한 질문이 있으면 issue를 작성하세요. 그럴 때는 issue를 열 때 나오는 기본 형식을 사용해 주세요. 물론, PR을 직접 제출하시면 매우 감사하겠습니다.
+MyText에 관한 질문이 있으면 issue를 작성하세요. 그럴 때는 issue를 열 때 나오는 기본 형식을 사용해 주세요. 물론, PR을 직접 제출하시면 매우 감사하겠습니다.
 
 ## 기여
 
-MarkText는 개발 중입니다. pull request를 하기 전에 반드시 [기여 가이드](../../.github/CONTRIBUTING.md)를 읽어 주세요. MarkText에 기능을 추가하고 싶으신가요? [로드맵](https://github.com/marktext/marktext/projects)과 열린 issue를 참조하세요.
+MyText는 개발 중입니다. pull request를 하기 전에 반드시 [기여 가이드](../../.github/CONTRIBUTING.md)를 읽어 주세요. MyText에 기능을 추가하고 싶으신가요? [로드맵](https://github.com/marktext/marktext/projects)과 열린 issue를 참조하세요.
 
 
 ## 기여자

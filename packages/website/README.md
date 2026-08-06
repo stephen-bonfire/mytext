@@ -1,4 +1,4 @@
-# MarkText Website
+# MyText Website
 
 
 
@@ -6,7 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-purple?logo=vite&logoColor=white)](https://vitejs.dev/)
 
-The official website for [MarkText](https://github.com/marktext/marktext) - A simple and elegant markdown editor.
+The official website for [MyText](https://github.com/marktext/marktext) - A simple and elegant markdown editor.
 
 ## ✨ Features
 
@@ -236,9 +236,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Main Project**: [MarkText Editor](https://github.com/marktext/marktext)
+- **Main Project**: [MyText Editor](https://github.com/marktext/marktext)
 - **Website**: [https://marktext.me](https://marktext.me)
-- **Documentation**: [MarkText Docs](https://marktext.me/docs)
+- **Documentation**: [MyText Docs](https://marktext.me/docs)
 
 ## 💖 Sponsors
 

@@ -551,7 +551,7 @@ watch(focus, (value) => {
 // state for the CURRENT cursor context (a code block/table still disables some
 // items) rather than blanket-enabling everything (#3531).
 watch(sourceCode, (isSource) => {
-  const windowId = window.marktext?.env?.windowId ?? -1
+  const windowId = window.mytext?.env?.windowId ?? -1
   if (isSource) {
     window.electron.ipcRenderer.send('mt::set-editor-format-menus-enabled', windowId, false)
     return
