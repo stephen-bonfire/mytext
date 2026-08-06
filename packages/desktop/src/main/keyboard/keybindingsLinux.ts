@@ -69,7 +69,9 @@ const keybindings: Map<string, string> = new Map([
   ['paragraph.task-list', 'Ctrl+Shift+X'],
   ['paragraph.loose-list-item', 'Ctrl+Shift+L'],
   ['paragraph.paragraph', 'Ctrl+Shift+0'],
-  ['paragraph.horizontal-line', 'Ctrl+Shift+U'],
+  // Moved off Ctrl+_ so degrade-heading can pair with upgrade-heading's Ctrl+Plus.
+  // Ctrl+Shift+U is the obvious alternative and what Windows uses, but IBus claims it here.
+  ['paragraph.horizontal-line', 'Ctrl+Shift+A'],
   ['paragraph.front-matter', 'Ctrl+Shift+Y'],
 
   // Format menu

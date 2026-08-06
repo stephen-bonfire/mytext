@@ -67,7 +67,7 @@ MarkText key bindings for Linux. Please see [general key bindings](KEYBINDINGS.m
 | `paragraph.task-list`       | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> | Insert a task list                       |
 | `paragraph.loose-list-item` | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | Convert a list item to a loose list item |
 | `paragraph.paragraph`       | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>0</kbd> | Convert a heading to a paragraph         |
-| `paragraph.horizontal-line` | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd> | Add a horizontal line                    |
+| `paragraph.horizontal-line` | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> | Add a horizontal line                    |
 | `paragraph.front-matter`    | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Y</kbd> | Insert a YAML frontmatter block          |
 
 #### Format menu
