@@ -28,7 +28,7 @@ Please search for similar issues before opening an issue and always follow the [
 
 Please make sure the following is done before submitting a PR:
 
-- Submit PRs directly to the `develop` branch.
+- Submit PRs directly to the `main` branch.
 - Reference the related issue in the PR comment.
 - Utilize [JSDoc](https://github.com/jsdoc/jsdoc) for better code documentation.
 - Ensure all tests pass.
@@ -65,14 +65,14 @@ Other ways to help:
 2. Clone your fork: `git clone git@github.com:<username>/marktext.git`
 3. Create a feature branch: `git checkout -b feature`
 4. Make your changes and push your branch.
-5. Create a PR against `develop` and describe your changes.
+5. Create a PR against `main` and describe your changes.
 
 **Rebase your PR:**
 
 If there are conflicts or you want to update your local branch, please do the following:
 
 1. `git fetch upstream`
-2. `git rebase upstream/develop`
+2. `git rebase upstream/main`
 3. Please [resolve](https://help.github.com/articles/resolving-merge-conflicts-after-a-git-rebase/) all conflicts and force push your feature branch: `git push -f`
 
 ### Build Instructions
