@@ -4,6 +4,10 @@
   /* Minus .mu-container's 100px horizontal padding and a code fence's own ~49px
      worst-case padding, this fits >=150 monospace characters at the default 14px code font. */
   --editorAreaWidth: 1440px;
+  /* @muyajs/core reads the kebab-case name. The named *.theme.css files each
+     alias it, but the default light theme is this base file and has no
+     counterpart there, so without this the engine falls back to its own 800px. */
+  --editor-area-width: var(--editorAreaWidth);
 
   /*editor*/
   /*Theme color cluster*/
