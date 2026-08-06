@@ -63,8 +63,8 @@ MarkText key bindings for macOS. Please see [general key bindings](KEYBINDINGS.m
 | `paragraph.heading-4`       | <kbd>Command</kbd>+<kbd>4</kbd>                   | Set line as heading 4                    |
 | `paragraph.heading-5`       | <kbd>Command</kbd>+<kbd>5</kbd>                   | Set line as heading 5                    |
 | `paragraph.heading-6`       | <kbd>Command</kbd>+<kbd>6</kbd>                   | Set line as heading 6                    |
-| `paragraph.upgrade-heading` | <kbd>Command</kbd>+<kbd>Plus</kbd>                | Upgrade a heading                        |
-| `paragraph.degrade-heading` | <kbd>Command</kbd>+<kbd>-</kbd>                   | Degrade a heading                        |
+| `paragraph.upgrade-heading` | <kbd>Ctrl</kbd>+<kbd>Command</kbd>+<kbd>=</kbd>   | Upgrade a heading                        |
+| `paragraph.degrade-heading` | <kbd>Ctrl</kbd>+<kbd>Command</kbd>+<kbd>-</kbd>   | Degrade a heading                        |
 | `paragraph.table`           | <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>  | Insert a table                           |
 | `paragraph.code-fence`      | <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>C</kbd> | Insert a code block                      |
 | `paragraph.quote-block`     | <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>Q</kbd> | Insert a quote block                     |
@@ -101,8 +101,8 @@ MarkText key bindings for macOS. Please see [general key bindings](KEYBINDINGS.m
 | ----------------------------- | ----------------------------------------------- | ------------------------- |
 | `window.minimize`             | <kbd>Command</kbd>+<kbd>M</kbd>                 | Minimize the window       |
 | `window.toggle-always-on-top` | -                                               | Toogle always on top mode |
-| `window.zoomIn`               | -                                               | Zoom in                   |
-| `window.zoomOut`              | -                                               | Zoom out                  |
+| `window.zoomIn`               | <kbd>Command</kbd>+<kbd>=</kbd>                 | Zoom in                   |
+| `window.zoomOut`              | <kbd>Command</kbd>+<kbd>-</kbd>                 | Zoom out                  |
 | `window.toggle-full-screen`   | <kbd>Ctrl</kbd>+<kbd>Command</kbd>+<kbd>F</kbd> | Toggle fullscreen mode    |
 
 #### View menu

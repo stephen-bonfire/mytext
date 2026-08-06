@@ -58,7 +58,7 @@ const keybindings: Map<string, string> = new Map([
   ['paragraph.heading-5', 'Ctrl+Alt+5'],
   ['paragraph.heading-6', 'Ctrl+Alt+6'],
   ['paragraph.upgrade-heading', 'Ctrl+Plus'],
-  ['paragraph.degrade-heading', 'Ctrl+-'],
+  ['paragraph.degrade-heading', 'Ctrl+_'],
   ['paragraph.table', 'Ctrl+Shift+T'],
   ['paragraph.code-fence', 'Ctrl+Shift+K'],
   ['paragraph.quote-block', 'Ctrl+Shift+Q'],
@@ -69,7 +69,7 @@ const keybindings: Map<string, string> = new Map([
   ['paragraph.task-list', 'Ctrl+Shift+X'],
   ['paragraph.loose-list-item', 'Ctrl+Shift+L'],
   ['paragraph.paragraph', 'Ctrl+Shift+0'],
-  ['paragraph.horizontal-line', 'Ctrl+_'], // Ctrl+Shift+-
+  ['paragraph.horizontal-line', 'Ctrl+Shift+U'],
   ['paragraph.front-matter', 'Ctrl+Shift+Y'],
 
   // Format menu
@@ -89,8 +89,8 @@ const keybindings: Map<string, string> = new Map([
   // Window menu
   ['window.minimize', 'Ctrl+M'],
   ['window.toggle-always-on-top', ''],
-  ['window.zoomIn', ''],
-  ['window.zoomOut', ''],
+  ['window.zoomIn', 'Ctrl+='],
+  ['window.zoomOut', 'Ctrl+-'],
   ['window.toggle-full-screen', 'F11'],
 
   // View menu

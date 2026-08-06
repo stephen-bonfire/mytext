@@ -56,7 +56,7 @@ MarkText key bindings for Linux. Please see [general key bindings](KEYBINDINGS.m
 | `paragraph.heading-5`       | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>5</kbd> | Set line as heading 5                    |
 | `paragraph.heading-6`       | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>6</kbd> | Set line as heading 6                    |
 | `paragraph.upgrade-heading` | <kbd>Ctrl</kbd>+<kbd>Plus</kbd>               | Upgrade a heading                        |
-| `paragraph.degrade-heading` | <kbd>Ctrl</kbd>+<kbd>-</kbd>                  | Degrade a heading                        |
+| `paragraph.degrade-heading` | <kbd>Ctrl</kbd>+<kbd>\_</kbd>                 | Degrade a heading                        |
 | `paragraph.table`           | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> | Insert a table                           |
 | `paragraph.code-fence`      | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> | Insert a code block                      |
 | `paragraph.quote-block`     | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> | Insert a quote block                     |
@@ -67,7 +67,7 @@ MarkText key bindings for Linux. Please see [general key bindings](KEYBINDINGS.m
 | `paragraph.task-list`       | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> | Insert a task list                       |
 | `paragraph.loose-list-item` | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | Convert a list item to a loose list item |
 | `paragraph.paragraph`       | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>0</kbd> | Convert a heading to a paragraph         |
-| `paragraph.horizontal-line` | <kbd>Ctrl</kbd>+<kbd>\_</kbd>                 | Add a horizontal line                    |
+| `paragraph.horizontal-line` | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd> | Add a horizontal line                    |
 | `paragraph.front-matter`    | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Y</kbd> | Insert a YAML frontmatter block          |
 
 #### Format menu
@@ -93,8 +93,8 @@ MarkText key bindings for Linux. Please see [general key bindings](KEYBINDINGS.m
 | ----------------------------- | ---------------------------- | ------------------------- |
 | `window.minimize`             | <kbd>Ctrl</kbd>+<kbd>M</kbd> | Minimize the window       |
 | `window.toggle-always-on-top` | -                            | Toogle always on top mode |
-| `window.zoomIn`               | -                            | Zoom in                   |
-| `window.zoomOut`              | -                            | Zoom out                  |
+| `window.zoomIn`               | <kbd>Ctrl</kbd>+<kbd>=</kbd> | Zoom in                   |
+| `window.zoomOut`              | <kbd>Ctrl</kbd>+<kbd>-</kbd> | Zoom out                  |
 | `window.toggle-full-screen`   | <kbd>F11</kbd>               | Toggle fullscreen mode    |
 
 #### View menu
