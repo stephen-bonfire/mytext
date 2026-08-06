@@ -1,7 +1,9 @@
 /* Common CSS use by both light and dark themes */
 :root {
   --titleBarHeight: 32px;
-  --editorAreaWidth: 750px;
+  /* Minus .mu-container's 100px horizontal padding and a code fence's own ~49px
+     worst-case padding, this fits >=150 monospace characters at the default 14px code font. */
+  --editorAreaWidth: 1440px;
 
   /*editor*/
   /*Theme color cluster*/
