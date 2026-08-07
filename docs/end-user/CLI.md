@@ -19,5 +19,5 @@ Usage: mytext [commands] [path ...]
 `mytext` should point to your installation of MyText. The exact location will vary from platform to platform. On macOS, you can create a convenient alias like:
 
 ```sh
-alias mytext="/Applications/MyText.app/Contents/MacOS/MyText"
+alias mytext="/Applications/mytext.app/Contents/MacOS/mytext"
 ```

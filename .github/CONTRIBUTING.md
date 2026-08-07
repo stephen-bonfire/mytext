@@ -33,7 +33,7 @@ Please make sure the following is done before submitting a PR:
 - Utilize [JSDoc](https://github.com/jsdoc/jsdoc) for better code documentation.
 - Ensure all tests pass.
 - Please lint (`pnpm run lint`) your PR.
-- All PRs need to pass the **CI** before merged. If it fails, please try to solve the issue(s) and feel free to ask for any help.
+- GitHub Actions is **disabled** on this repository, so nothing checks a PR automatically. Run `pnpm run lint`, `pnpm run typecheck` and `pnpm run test` locally before opening one — those results are the only signal a reviewer has.
 
 If you add new feature:
 
