@@ -1,6 +1,6 @@
-<p align="center"><img src="../assets/logo-small.png" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="../assets/logo-small.png" alt="MyText" width="100" height="100"></p>
 
-<h1 align="center">MarkText</h1>
+<h1 align="center">MyText</h1>
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
@@ -106,9 +106,9 @@
 
 <br />
 
-<h2 align="center">MarkText'e Destek Olun</h2>
+<h2 align="center">MyText'e Destek Olun</h2>
 
-MarkText, topluluğunun desteğiyle hayata geçirilmiş açık kaynaklı bir Markdown editörüdür. MarkText iş akışınızı iyileştiriyorsa, lütfen [projeye destek olmayı](https://github.com/sponsors/marktext) düşünün. Tüm destekçilere teşekkürler ❤️
+MyText, topluluğunun desteğiyle hayata geçirilmiş açık kaynaklı bir Markdown editörüdür. MyText iş akışınızı iyileştiriyorsa, lütfen [projeye destek olmayı](https://github.com/sponsors/marktext) düşünün. Tüm destekçilere teşekkürler ❤️
 
 **Özel Destekçi**
 
@@ -175,16 +175,16 @@ Linux, macOS ve Windows için tüm ikili dosyalar [sürümler sayfasından](http
 
 ## Geliştirme
 
-MarkText'i kendiniz derlemek istiyorsanız lütfen [derleme talimatlarımıza](../dev/BUILD.md) bakın.
+MyText'i kendiniz derlemek istiyorsanız lütfen [derleme talimatlarımıza](../dev/BUILD.md) bakın.
 
 - [Kullanıcı belgeleri](../README.md)
 - [Geliştirici belgeleri](../dev/README.md)
 
-MarkText hakkında sorularınız varsa bir issue yazabilirsiniz. Bunu yaparken issue açarken görünen varsayılan formatı kullanın. Elbette doğrudan bir PR gönderirseniz çok memnun oluruz.
+MyText hakkında sorularınız varsa bir issue yazabilirsiniz. Bunu yaparken issue açarken görünen varsayılan formatı kullanın. Elbette doğrudan bir PR gönderirseniz çok memnun oluruz.
 
 ## Katkı
 
-MarkText geliştirme aşamasındadır. Bir pull request oluşturmadan önce [Katkı Kılavuzunu](../../.github/CONTRIBUTING.md) okuduğunuzdan emin olun. MarkText'e özellik eklemek ister misiniz? [Yol haritamıza](https://github.com/marktext/marktext/projects) ve açık issue'lara bakın.
+MyText geliştirme aşamasındadır. Bir pull request oluşturmadan önce [Katkı Kılavuzunu](../../.github/CONTRIBUTING.md) okuduğunuzdan emin olun. MyText'e özellik eklemek ister misiniz? [Yol haritamıza](https://github.com/marktext/marktext/projects) ve açık issue'lara bakın.
 
 
 ## Katkıda Bulunanlar

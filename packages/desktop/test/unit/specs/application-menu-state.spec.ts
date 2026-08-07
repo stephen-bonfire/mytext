@@ -7,13 +7,13 @@ vi.hoisted(() => {
   const w = globalThis as unknown as {
     window?: {
       path?: { sep: string; dirname: (p: string) => string }
-      marktext?: { env: { windowId: number } }
+      mytext?: { env: { windowId: number } }
       electron?: { clipboard: { writeText: (s: string) => void }; ipcRenderer: { send: (...a: unknown[]) => void; on: (...a: unknown[]) => void } }
     }
   }
   w.window ??= {}
   w.window.path ??= { sep: '/', dirname: (p: string) => p }
-  w.window.marktext ??= { env: { windowId: 1 } }
+  w.window.mytext ??= { env: { windowId: 1 } }
   w.window.electron ??= { clipboard: { writeText: () => {} }, ipcRenderer: { send: () => {}, on: () => {} } }
 })
 

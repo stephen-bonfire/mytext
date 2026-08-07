@@ -1,6 +1,6 @@
-<p align="center"><img src="docs/assets/logo-small.png" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="docs/assets/logo-small.png" alt="MyText" width="100" height="100"></p>
 
-<h1 align="center">MarkText</h1>
+<h1 align="center">MyText</h1>
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
@@ -103,7 +103,7 @@
 
 <h2 align="center">Sponsors</h2>
 
-MarkText is an open-source Markdown editor powered by the support of its community. If MarkText improves your workflow, please consider [sponsoring the project](https://github.com/sponsors/marktext). Thank you to all the sponsors ❤️
+MyText is an open-source Markdown editor powered by the support of its community. If MyText improves your workflow, please consider [sponsoring the project](https://github.com/sponsors/marktext). Thank you to all the sponsors ❤️
 
 **Special Sponsor**
 
@@ -174,16 +174,16 @@ All binaries for Linux, macOS and Windows can be downloaded from the [release pa
 
 ## Development
 
-If you wish to build MarkText yourself, please check out our [build instructions](https://marktext.me/docs/dev/build).
+If you wish to build MyText yourself, please check out our [build instructions](https://marktext.me/docs/dev/build).
 
 - [User documentation](https://marktext.me/docs/introduction)
 - [Developer documentation](https://marktext.me/docs/dev/overview)
 
-If you have any questions regarding MarkText, you are welcome to write an issue. When doing so please use the default format found when opening an issue. Of course, if you submit a PR directly, it will be greatly appreciated.
+If you have any questions regarding MyText, you are welcome to write an issue. When doing so please use the default format found when opening an issue. Of course, if you submit a PR directly, it will be greatly appreciated.
 
 ## Contribution
 
-MarkText is in development, please make sure to read the [Contributing Guide](.github/CONTRIBUTING.md) before making a pull request. Want to add some features to MarkText? Refer to our [roadmap](https://github.com/marktext/marktext/projects) and open issues.
+MyText is in development, please make sure to read the [Contributing Guide](.github/CONTRIBUTING.md) before making a pull request. Want to add some features to MyText? Refer to our [roadmap](https://github.com/marktext/marktext/projects) and open issues.
 
 ## Contributors
 

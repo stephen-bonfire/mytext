@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a bug report to help us improve MarkText
+description: Create a bug report to help us improve MyText
 title: '[Bug] '
 labels: ['bug', 'triage']
 body:
@@ -65,9 +65,9 @@ body:
       required: true
 
   - type: input
-    id: marktext-version
+    id: mytext-version
     attributes:
-      label: MarkText Version
+      label: MyText Version
       placeholder: 'e.g. 0.17.1'
     validations:
       required: true

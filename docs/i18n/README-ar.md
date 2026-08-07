@@ -1,6 +1,6 @@
-<p align="center"><img src="../assets/logo-small.png" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="../assets/logo-small.png" alt="MyText" width="100" height="100"></p>
 
-<h1 dir="rtl" align="center">MarkText</h1>
+<h1 dir="rtl" align="center">MyText</h1>
 
 <div dir="rtl" align="center">
   <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
@@ -105,9 +105,9 @@
 
 <br />
 
-<h2 dir="rtl" align="center">دعم MarkText</h2>
+<h2 dir="rtl" align="center">دعم MyText</h2>
 
-MarkText هو محرر Markdown مفتوح المصدر يعتمد على دعم مجتمعه. إذا كان MarkText يُحسّن سير عملك، يُرجى التفكير في [دعم المشروع](https://github.com/sponsors/marktext). شكراً لجميع الداعمين ❤️
+MyText هو محرر Markdown مفتوح المصدر يعتمد على دعم مجتمعه. إذا كان MyText يُحسّن سير عملك، يُرجى التفكير في [دعم المشروع](https://github.com/sponsors/marktext). شكراً لجميع الداعمين ❤️
 
 **الراعي المميز**
 
@@ -174,16 +174,16 @@ winget install marktext
 
 ## التطوير
 
-إذا كنت ترغب في بناء MarkText بنفسك، يرجى الاطلاع على [تعليمات البناء](../dev/BUILD.md).
+إذا كنت ترغب في بناء MyText بنفسك، يرجى الاطلاع على [تعليمات البناء](../dev/BUILD.md).
 
 - [توثيق المستخدم](../README.md)
 - [توثيق المطور](../dev/README.md)
 
-إذا كانت لديك أي أسئلة بخصوص MarkText، فمرحبًا بك في كتابة مشكلة. عند القيام بذلك، يرجى استخدام التنسيق الافتراضي. بالطبع، إذا قدمت طلب دمج (PR) مباشرة، فسيتم تقديره كثيرًا.
+إذا كانت لديك أي أسئلة بخصوص MyText، فمرحبًا بك في كتابة مشكلة. عند القيام بذلك، يرجى استخدام التنسيق الافتراضي. بالطبع، إذا قدمت طلب دمج (PR) مباشرة، فسيتم تقديره كثيرًا.
 
 ## المساهمة
 
-MarkText قيد التطوير، يرجى التأكد من قراءة [دليل المساهمة](../../.github/CONTRIBUTING.md) قبل إنشاء طلب دمج. هل تريد إضافة ميزات إلى MarkText؟ راجع [خارطة الطريق](https://github.com/marktext/marktext/projects) والمشكلات المفتوحة.
+MyText قيد التطوير، يرجى التأكد من قراءة [دليل المساهمة](../../.github/CONTRIBUTING.md) قبل إنشاء طلب دمج. هل تريد إضافة ميزات إلى MyText؟ راجع [خارطة الطريق](https://github.com/marktext/marktext/projects) والمشكلات المفتوحة.
 
 
 ## المساهمون

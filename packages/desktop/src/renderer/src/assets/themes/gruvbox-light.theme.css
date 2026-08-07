@@ -72,7 +72,7 @@
   --emColor: #d79921;
   --listMarkerColor: #d65d0e;
 
-  /*marktext*/
+  /*mytext*/
   --sideBarColor: rgba(60, 56, 54, 0.7);
   --sideBarIconColor: var(--iconColor);
   --sideBarTitleColor: rgba(60, 56, 54, 0.9);
@@ -87,7 +87,7 @@
   --floatBorderColor: rgba(0, 0, 0, 0.08);
   --floatShadow: rgba(0, 0, 0, 0.1);
   --maskColor: rgba(0, 0, 0, 0.3);
-  --editorAreaWidth: 750px;
+  --editorAreaWidth: 1440px;
 
   /* @muyajs/core (kebab-case) editor variables
      Additive prep for the muyajs -> @muyajs/core editor swap. These

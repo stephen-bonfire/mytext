@@ -5,15 +5,15 @@
 Clone the repository:
 
 ```
-git clone https://github.com/marktext/marktext.git
+git clone https://github.com/stephen-bonfire/mytext.git
 ```
 
 ## Container Setup
 
-The easiest way to build Marktext on Linux is from inside a container.
+The easiest way to build MyText on Linux is from inside a container.
 Here are the steps for doing so:
 ```sh
-# cd to marktext repository
+# cd to mytext repository
 
 # run container (you can use docker instead of podman if you like)
 podman run -it -v ./:/mnt:Z node:22-bookworm /bin/bash
@@ -69,10 +69,10 @@ On Arch Linux: `sudo pacman -S libx11 libxkbfile libsecret fontconfig`
 
 ### Let's build
 
-1. Go to `marktext` folder
+1. Go to `mytext` folder
 2. Install dependencies: `pnpm install`
-3. Build MarkText binaries and packages: `pnpm run build`
-4. MarkText binary is located under `dist` folder (electron-builder output)
+3. Build MyText binaries and packages: `pnpm run build`
+4. MyText binary is located under `dist` folder (electron-builder output)
 
 Copy the build app to applications folder, or if on Windows run the executable installer.
 
@@ -84,8 +84,8 @@ $ pnpm run <script>
 
 | Script  | Description                                      |
 | ------- | ------------------------------------------------ |
-| `build` | Build MarkText binaries and packages for your OS |
-| `dev`   | Build and run MarkText in developer mode         |
+| `build` | Build MyText binaries and packages for your OS |
+| `dev`   | Build and run MyText in developer mode         |
 | `lint`  | Lint code style                                  |
 | `test`  | Run unit tests                                   |
 
