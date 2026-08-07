@@ -51,21 +51,21 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: pnpm --filter marktext-website run lint
+        run: pnpm --filter mytext-website run lint
 
       - name: Type-check
-        run: pnpm --filter marktext-website run type-check
+        run: pnpm --filter mytext-website run type-check
 
       - name: Next build
-        run: pnpm --filter marktext-website run build
+        run: pnpm --filter mytext-website run build
 
       - name: OpenNext Cloudflare build
-        run: pnpm --filter marktext-website run cf:build
+        run: pnpm --filter mytext-website run cf:build
 
       # ---- Production deploy: main push ----
       - name: Deploy (production)
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: pnpm --filter marktext-website exec wrangler deploy
+        run: pnpm --filter mytext-website exec wrangler deploy
 
       # ---- Preview deploy: pull_request ----
       #

@@ -1,6 +1,6 @@
-<p align="center"><img src="../assets/logo-small.png" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="../assets/logo-small.png" alt="MyText" width="100" height="100"></p>
 
-<h1 align="center">MarkText</h1>
+<h1 align="center">MyText</h1>
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
@@ -105,9 +105,9 @@
 
 <br />
 
-<h2 align="center">MarkText unterstützen</h2>
+<h2 align="center">MyText unterstützen</h2>
 
-MarkText ist ein Open-Source-Markdown-Editor, der von seiner Community unterstützt wird. Wenn MarkText Ihren Workflow verbessert, erwägen Sie bitte, [das Projekt zu sponsern](https://github.com/sponsors/marktext). Vielen Dank an alle Sponsoren ❤️
+MyText ist ein Open-Source-Markdown-Editor, der von seiner Community unterstützt wird. Wenn MyText Ihren Workflow verbessert, erwägen Sie bitte, [das Projekt zu sponsern](https://github.com/sponsors/marktext). Vielen Dank an alle Sponsoren ❤️
 
 **Besonderer Sponsor**
 
@@ -174,16 +174,16 @@ Alle Binärdateien für Linux, macOS und Windows können von der [Release-Seite]
 
 ## Entwicklung
 
-Wenn du MarkText selbst erstellen möchtest, sieh dir bitte unsere [Build-Anleitung](../dev/BUILD.md) an.
+Wenn du MyText selbst erstellen möchtest, sieh dir bitte unsere [Build-Anleitung](../dev/BUILD.md) an.
 
 - [Benutzerdokumentation](../README.md)
 - [Entwicklerdokumentation](../dev/README.md)
 
-Bei Fragen zu MarkText kannst du gerne ein Issue erstellen. Bitte verwende dabei das Standardformat. Natürlich ist auch ein direkter PR sehr willkommen.
+Bei Fragen zu MyText kannst du gerne ein Issue erstellen. Bitte verwende dabei das Standardformat. Natürlich ist auch ein direkter PR sehr willkommen.
 
 ## Beitrag
 
-MarkText befindet sich in der Entwicklung. Bitte lies den [Beitragsleitfaden](../../.github/CONTRIBUTING.md) vor dem Erstellen eines Pull Requests. Möchtest du Funktionen zu MarkText hinzufügen? Sieh dir unsere [Roadmap](https://github.com/marktext/marktext/projects) und offene Issues an.
+MyText befindet sich in der Entwicklung. Bitte lies den [Beitragsleitfaden](../../.github/CONTRIBUTING.md) vor dem Erstellen eines Pull Requests. Möchtest du Funktionen zu MyText hinzufügen? Sieh dir unsere [Roadmap](https://github.com/marktext/marktext/projects) und offene Issues an.
 
 
 ## Mitwirkende

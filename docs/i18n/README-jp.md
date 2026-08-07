@@ -1,6 +1,6 @@
-<p align="center"><img src="../assets/logo-small.png" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="../assets/logo-small.png" alt="MyText" width="100" height="100"></p>
 
-<h1 align="center">MarkText</h1>
+<h1 align="center">MyText</h1>
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
@@ -106,9 +106,9 @@
 
 <br />
 
-<h2 align="center">MarkText を支援する</h2>
+<h2 align="center">MyText を支援する</h2>
 
-MarkText はコミュニティの支援によって成り立つオープンソースの Markdown エディターです。MarkText があなたのワークフローを改善するなら、[プロジェクトへのスポンサー](https://github.com/sponsors/marktext)をご検討ください。すべてのスポンサーに感謝します ❤️
+MyText はコミュニティの支援によって成り立つオープンソースの Markdown エディターです。MyText があなたのワークフローを改善するなら、[プロジェクトへのスポンサー](https://github.com/sponsors/marktext)をご検討ください。すべてのスポンサーに感謝します ❤️
 
 **スペシャルスポンサー**
 
@@ -175,16 +175,16 @@ Linux、macOS、Windows 用のすべてのバイナリは[リリースページ]
 
 ## 開発
 
-MarkText を自分でビルドしたい場合は、[ビルド手順](../dev/BUILD.md)をご確認ください。
+MyText を自分でビルドしたい場合は、[ビルド手順](../dev/BUILD.md)をご確認ください。
 
 - [ユーザードキュメント](../README.md)
 - [開発者ドキュメント](../dev/README.md)
 
-MarkText に関してご質問がある場合は、issue を作成していただければ幸いです。その際はデフォルトのフォーマットをご使用ください。もちろん、直接 PR を提出していただけると大変ありがたいです。
+MyText に関してご質問がある場合は、issue を作成していただければ幸いです。その際はデフォルトのフォーマットをご使用ください。もちろん、直接 PR を提出していただけると大変ありがたいです。
 
 ## コントリビューション
 
-MarkText は開発中です。プルリクエストを作成する前に必ず[コントリビューションガイド](../../.github/CONTRIBUTING.md)をお読みください。MarkText に機能を追加したい場合は、[ロードマップ](https://github.com/marktext/marktext/projects)とオープン issue をご確認ください。
+MyText は開発中です。プルリクエストを作成する前に必ず[コントリビューションガイド](../../.github/CONTRIBUTING.md)をお読みください。MyText に機能を追加したい場合は、[ロードマップ](https://github.com/marktext/marktext/projects)とオープン issue をご確認ください。
 
 
 ## コントリビューター

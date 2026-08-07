@@ -1,6 +1,6 @@
-<p align="center"><img src="../assets/logo-small.png" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="../assets/logo-small.png" alt="MyText" width="100" height="100"></p>
 
-<h1 align="center">MarkText</h1>
+<h1 align="center">MyText</h1>
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
@@ -106,9 +106,9 @@
 
 <br />
 
-<h2 align="center">支持 MarkText</h2>
+<h2 align="center">支持 MyText</h2>
 
-MarkText 是一款由社区支持驱动的开源 Markdown 编辑器。如果 MarkText 改善了您的工作流程，请考虑[赞助本项目](https://github.com/sponsors/marktext)。感谢所有赞助者 ❤️
+MyText 是一款由社区支持驱动的开源 Markdown 编辑器。如果 MyText 改善了您的工作流程，请考虑[赞助本项目](https://github.com/sponsors/marktext)。感谢所有赞助者 ❤️
 
 **特别赞助商**
 
@@ -175,16 +175,16 @@ winget install marktext
 
 ## 开发
 
-如果你希望自行构建 MarkText，请参阅我们的[构建说明](../dev/BUILD.md)。
+如果你希望自行构建 MyText，请参阅我们的[构建说明](../dev/BUILD.md)。
 
 - [用户文档](../README.md)
 - [开发者文档](../dev/README.md)
 
-如果你对 MarkText 有任何疑问，欢迎提交 issue。提交时请使用打开 issue 时的默认格式。当然，如果你直接提交 PR，将不胜感激。
+如果你对 MyText 有任何疑问，欢迎提交 issue。提交时请使用打开 issue 时的默认格式。当然，如果你直接提交 PR，将不胜感激。
 
 ## 贡献
 
-MarkText 正在开发中，请在提交 pull request 之前确保阅读[贡献指南](../../.github/CONTRIBUTING.md)。想为 MarkText 添加新功能？请参阅我们的[路线图](https://github.com/marktext/marktext/projects)和开放 issue。
+MyText 正在开发中，请在提交 pull request 之前确保阅读[贡献指南](../../.github/CONTRIBUTING.md)。想为 MyText 添加新功能？请参阅我们的[路线图](https://github.com/marktext/marktext/projects)和开放 issue。
 
 
 ## 贡献者
