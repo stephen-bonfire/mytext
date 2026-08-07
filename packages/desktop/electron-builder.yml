@@ -1,5 +1,5 @@
 appId: com.github.stephen-bonfire.mytext
-productName: mytext
+productName: MyText
 directories:
   buildResources: build
   output: ../../dist
