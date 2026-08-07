@@ -8,12 +8,12 @@ The flow below covers both release candidates and stable releases — same steps
 
 - Push access to `stephen-bonfire/mytext`
 - `gh` CLI authenticated (`gh auth status`)
-- A clean checkout of the latest `develop`
+- A clean checkout of the latest `main`
 
 ## 1. Cut a release branch (first RC only)
 
 ```bash
-git checkout develop
+git checkout main
 git pull --ff-only
 git checkout -b release/vX.Y.0     # e.g. release/v0.19.0
 ```
@@ -48,10 +48,10 @@ A `-` in the tag (e.g. `v0.19.0-rc.1`) tells the workflow to mark the GitHub Rel
 
 ## 5. Open a tracking PR (RC only)
 
-Open a **draft** PR from `release/vX.Y.0` → `develop` for visibility. Do **not** merge it until the matching stable tag is pushed — merging an RC commit would freeze `develop` at the RC version.
+Open a **draft** PR from `release/vX.Y.0` → `main` for visibility. Do **not** merge it until the matching stable tag is pushed — merging an RC commit would freeze `main` at the RC version.
 
 ```bash
-gh pr create --draft --base develop --head release/vX.Y.0 \
+gh pr create --draft --base main --head release/vX.Y.0 \
   --title "chore(release): vX.Y.0 release branch (DO NOT MERGE until stable)" \
   --body "Tracking branch for vX.Y.0. Merge after the stable tag is published."
 ```
@@ -86,8 +86,8 @@ Confirm:
 
 ## 8. Post-stable cleanup (after stable `vX.Y.0` ships)
 
-1. Mark the tracking PR from step 5 ready for review and merge into `develop`
-2. Open a follow-up PR bumping `develop`'s `package.json` to the next dev version (e.g. `0.20.0-dev`)
+1. Mark the tracking PR from step 5 ready for review and merge into `main`
+2. Open a follow-up PR bumping `main`'s `package.json` to the next dev version (e.g. `0.20.0-dev`)
 
 ---
 

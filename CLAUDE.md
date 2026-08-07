@@ -295,7 +295,7 @@ See `packages/website/content/docs/dev/IPC.md` for conventions and examples.
 
 ## Contribution
 
-- Submit PRs to the **`develop`** branch (not `main`).
+- Submit PRs to the **`main`** branch.
 - Reference the related issue in the PR description.
 - Run `pnpm run lint` before submitting.
 - All PRs must pass CI before merge.
