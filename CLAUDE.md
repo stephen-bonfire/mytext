@@ -33,7 +33,7 @@ MyText is a WYSIWYG markdown editor built on Electron + Vue 3. It supports Commo
 ## Directory Structure
 
 This is a pnpm workspace. Three packages live under `packages/`, and the
-root holds only shared tooling and CI-facing scripts.
+root holds shared tooling, CI-facing scripts, and the developer docs.
 
 ```
 <repo-root>/
@@ -49,7 +49,8 @@ root holds only shared tooling and CI-facing scripts.
                             minify-locales.ts, generateThirdPartyLicense.ts,
                             validateLicenses.ts, thirdPartyChecker.ts all
                             target packages/desktop internally.
-  docs/                     Long-form developer docs.
+  docs/                     Long-form developer and end-user docs
+                            (dev/, end-user/, i18n/, assets/).
   dist/                     Packaged installers from electron-builder
                             (git-ignored; electron-builder writes here via
                             `directories.output: ../../dist` so CI artifact
@@ -130,11 +131,6 @@ root holds only shared tooling and CI-facing scripts.
                             wired in playwright.config.ts but deferred
                             until BACKLOG Phase 3 lands engine-independent
                             specs.
-    website/                mytext-website (Vite + React 18). Standalone
-                            toolchain; depends on @muyajs/core from npm,
-                            not on the local muyajs package. Not part of
-                            desktop CI today.
-      src/ / public/ / build/ / vite.config.ts / tsconfig.json
 ```
 
 The root has no `src/`, `test/`, `static/`, or `build/` of its own anymore — they all live in `packages/desktop/`.
@@ -171,10 +167,6 @@ pnpm run minify-locales
 # Performance debugging — exposes a Node inspector on :5858 against the previewed build
 pnpm run perf:inspect       # attach when ready
 pnpm run perf:inspect-brk   # break on first line
-
-# Website (not yet wired into CI)
-pnpm --filter mytext-website dev      # Vite dev server
-pnpm --filter mytext-website build    # static build → packages/website/build/
 ```
 
 If you need to invoke a script directly inside a package, use
@@ -216,7 +208,7 @@ Enforced by ESLint + Prettier. Run `pnpm run lint` and `pnpm run typecheck` befo
 - 2-space indentation
 - No semicolons
 - Single quotes
-- TypeScript with `strict: true`; see `packages/website/content/docs/dev/TYPESCRIPT.md`
+- TypeScript with `strict: true`; see `docs/dev/TYPESCRIPT.md`
 - Cross-process types live in `packages/desktop/src/shared/types/`; ambient declarations in `packages/desktop/src/types/`
 - IPC channels are typed via the contract in `packages/desktop/src/shared/types/ipc.ts`
 - The renderer is fully sandboxed — every IPC and Node access goes through `window.electron.*` / `window.fileUtils.*` etc. (typed in `packages/desktop/src/types/global.d.ts`)
@@ -263,11 +255,11 @@ Muya  (packages/muyajs/)            ← workspace package @mytext/muyajs
 
 Most IPC channels between main and renderer use the `mt::` prefix (e.g. `mt::open-new-tab`, `mt::file-saved`). Some internal channels do not follow this convention (e.g. `language-changed`).
 
-See `packages/website/content/docs/dev/IPC.md` for conventions and examples.
+See `docs/dev/IPC.md` for conventions and examples.
 
 ## Further Reading
 
-`packages/website/content/docs/dev/` contains the deeper developer documentation referenced by this guide. Same files are published as the developer docs section on https://marktext.me/docs/dev/overview:
+`docs/dev/` contains the deeper developer documentation referenced by this guide:
 
 - `ARCHITECTURE.md` — process/module layering beyond the summary above
 - `BUILD.md` — full platform build prerequisites (including the Arch Linux deps added recently)

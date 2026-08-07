@@ -17,10 +17,6 @@ export default [
       '.claude/**',
       '**/out/**',
       '**/dist/**',
-      // The website ships with its own ESLint v8 config (React conventions).
-      // The root config here is desktop-focused; mixing the two surfaces
-      // pre-existing website style errors into desktop CI.
-      'packages/website/**',
       'packages/muyajs/lib/assets/libs/**',
       'packages/muyajs/lib/parser/marked/urlify.js',
       // muya v2 (TS) self-lints with its own antfu-based config
