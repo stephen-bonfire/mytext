@@ -62,7 +62,7 @@ const themeBackgroundColors: ReadonlyMap<string, string> = new Map([
   ['oxocarbon-dark', '#161616'],
   ['palenight', '#292d3e'],
   ['rose-pine', '#191724'],
-  ['rose-pine-dawn', '#faf4ed'],
+  ['rose-pine-dawn', '#fcfbfb'],
   ['rose-pine-moon', '#232136'],
   ['solarized-dark', '#002b36'],
   ['solarized-light', '#fdf6e3'],

@@ -12,7 +12,7 @@
   --themeColor10: rgba(144, 122, 169, 0.1);
 
   --highlightColor: rgba(144, 122, 169, 0.3);
-  --selectionColor: rgba(242, 233, 222, 0.8);
+  --selectionColor: rgba(242, 240, 238, 0.8);
   --editorColor: #575279;
   --editorColor80: rgba(87, 82, 121, 0.8);
   --editorColor60: rgba(87, 82, 121, 0.6);
@@ -21,25 +21,25 @@
   --editorColor30: rgba(87, 82, 121, 0.3);
   --editorColor10: rgba(87, 82, 121, 0.1);
   --editorColor04: rgba(87, 82, 121, 0.04);
-  --editorBgColor: #faf4ed;
+  --editorBgColor: #fcfbfb;
   --deleteColor: #b4637a;
   --iconColor: rgba(87, 82, 121, 0.56);
-  --codeBgColor: #f2e9e1;
-  --codeBlockBgColor: #f2e9e1;
-  --footnoteBgColor: rgba(242, 233, 225, 0.5);
-  --inputBgColor: #f6ede5;
+  --codeBgColor: #f3f1f0;
+  --codeBlockBgColor: #f3f1f0;
+  --footnoteBgColor: rgba(243, 241, 240, 0.5);
+  --inputBgColor: #f7f5f4;
 
   --focusColor: var(--themeColor);
 
   --buttonFontColor: rgba(87, 82, 121, 0.7);
-  --buttonBgColor: #f2e9e1;
+  --buttonBgColor: #f3f1f0;
   --buttonBorder: 1px solid rgba(0, 0, 0, 0.08);
   --buttonShadow: none;
   --buttonFontColorHover: var(--buttonFontColor);
-  --buttonBgColorHover: #e9dfd7;
+  --buttonBgColorHover: #eae8e6;
   --buttonBorderHover: 1px solid rgba(0, 0, 0, 0.12);
   --buttonFontColorActive: var(--buttonFontColor);
-  --buttonBgColorActive: #e0d6cd;
+  --buttonBgColorActive: #e1dedc;
   --buttonBorderActive: var(--buttonBorder);
 
   --buttonPrimaryFontColor: #ffffff;
@@ -54,7 +54,7 @@
   --buttonPrimaryBorderActive: var(--buttonPrimaryBorder);
   --buttonPrimaryFocusBorder: none;
   --buttonPrimaryFocusShadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 0 0 1px var(--themeColor);
-  --tableBorderColor: #e0d6cd;
+  --tableBorderColor: #e1dedc;
 
   /* Markdown element colors */
   --headingColor: #575279;
@@ -66,7 +66,7 @@
   --h6Color: #b4637a;
   --blockquoteTextColor: rgba(87, 82, 121, 0.6);
   --blockquoteBorderColor: #9893a5;
-  --hrColor: #e0d6cd;
+  --hrColor: #e1dedc;
   --linkColor: #286983;
   --strongColor: #575279;
   --emColor: #d7827e;
@@ -77,12 +77,12 @@
   --sideBarIconColor: var(--iconColor);
   --sideBarTitleColor: rgba(87, 82, 121, 0.9);
   --sideBarTextColor: rgba(87, 82, 121, 0.5);
-  --sideBarBgColor: #f6eee7;
+  --sideBarBgColor: #f8f6f5;
   --sideBarItemHoverBgColor: rgba(87, 82, 121, 0.05);
-  --itemBgColor: #e9dfd7;
+  --itemBgColor: #eae8e6;
 
   --floatFontColor: rgba(87, 82, 121, 0.8);
-  --floatBgColor: #f2e9e1;
+  --floatBgColor: #f3f1f0;
   --floatHoverColor: rgba(87, 82, 121, 0.06);
   --floatBorderColor: rgba(0, 0, 0, 0.08);
   --floatShadow: rgba(0, 0, 0, 0.1);
@@ -155,7 +155,7 @@
 }
 
 .side-bar {
-  border-right: 1px solid #e0d6cd !important;
+  border-right: 1px solid #e1dedc !important;
 }
 
 .recent-files-projects a,
@@ -169,7 +169,7 @@
 .editor-tabs:after {
   position: absolute;
   content: '';
-  border-bottom: 1px solid #e0d6cd;
+  border-bottom: 1px solid #e1dedc;
   bottom: 0;
   left: 0;
   right: 0;
@@ -178,7 +178,7 @@
 .editor-tabs ul.tabs-container:after {
   position: absolute;
   content: '';
-  border-bottom: 1px solid #e0d6cd;
+  border-bottom: 1px solid #e1dedc;
   bottom: 0;
   left: 0;
   right: 0;

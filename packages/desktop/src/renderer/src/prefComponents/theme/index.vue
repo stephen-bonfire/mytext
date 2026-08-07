@@ -390,7 +390,7 @@ const onSelectChange = (type: keyof PreferencesState, value: unknown): void => {
     }
     &.rose-pine-dawn {
       color: #575279;
-      background: #faf4ed;
+      background: #fcfbfb;
       & a {
         color: #907aa9;
       }

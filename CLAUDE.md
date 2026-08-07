@@ -28,7 +28,7 @@ MyText is a WYSIWYG markdown editor built on Electron + Vue 3. It supports Commo
 | E2E tests | Playwright |
 | Package manager | pnpm >=10 workspace (`packageManager: pnpm@10.33.4`) |
 | Repo layout | pnpm monorepo — see Directory Structure |
-| Node.js minimum | >=20.19.0 (PR CI: Node 22.21.1 · release CI: Node 24.14.1) |
+| Node.js | >=20.19.0, and **below 26** — Node 26's node-gyp cannot build the `ced` native module, so `pnpm install`'s electron-rebuild step fails and the app will not launch. Node 22.x is the known-good version. |
 
 ## Directory Structure
 
@@ -289,6 +289,7 @@ See `docs/dev/IPC.md` for conventions and examples.
 
 - Submit PRs to the **`main`** branch.
 - Reference the related issue in the PR description.
-- Run `pnpm run lint` before submitting.
-- All PRs must pass CI before merge.
+- Run `pnpm run lint`, `pnpm run typecheck` and `pnpm run test` before submitting.
+  GitHub Actions is disabled on this repo, so these are the only checks that run —
+  nothing verifies a PR automatically.
 - See `.github/CONTRIBUTING.md` for the full contributing guide.
