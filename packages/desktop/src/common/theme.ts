@@ -48,7 +48,7 @@ const themeBackgroundColors: ReadonlyMap<string, string> = new Map([
   ['dark', '#282828'],
   ['dracula', '#282a36'],
   ['everforest-dark', '#2d353b'],
-  ['everforest-light', '#fdf6e3'],
+  ['everforest-light', '#fffff0'],
   ['graphite', '#f7f7f7'],
   ['gruvbox-dark', '#282828'],
   ['gruvbox-light', '#fbf1c7'],
